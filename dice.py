@@ -4,7 +4,7 @@ import random
 
 while True:
     if accelerometer.was_gesture('shake'):
-        choice = random.randrange(1,6)
+        choice = random.randrange(1,7)
         if choice == 1:
             display.show(Image('00000:'
 
